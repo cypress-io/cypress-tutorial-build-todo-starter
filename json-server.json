@@ -1,0 +1,6 @@
+{
+  "port": 3030,
+  "watch": false,
+  "static": "./build",
+  "routes": "./routes.json"
+}
