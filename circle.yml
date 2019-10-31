@@ -10,4 +10,5 @@ workflows:
       # "run" is the name of the job defined in Cypress orb
       - cypress/run:
           start: npm run serve
+          command: npx wait-on http://localhost:3030
           no-workspace: true
