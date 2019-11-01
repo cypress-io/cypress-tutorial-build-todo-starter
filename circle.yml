@@ -6,9 +6,8 @@ orbs:
 workflows:
   build:
     jobs:
-      # "cypress" is the name of the imported orb
-      # "run" is the name of the job defined in Cypress orb
       - cypress/run:
-          start: npm run serve
+          # test that the server starts and responds
+          start: npm run serve -- --static src
           command: npx wait-on http://localhost:3030
           no-workspace: true
