@@ -27,7 +27,7 @@
     "babel-preset-env": "1.7.0",
     "babel-preset-react": "6.24.1",
     "css-loader": "0.28.11",
-    "cypress": "3.5.0",
+    "cypress": "3.8.3",
     "html-webpack-plugin": "2.30.1",
     "style-loader": "0.19.1",
     "webpack": "3.12.0"
